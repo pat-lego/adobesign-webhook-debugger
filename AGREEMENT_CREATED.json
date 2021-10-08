@@ -1,0 +1,142 @@
+{
+  webhookId: 'CBJCHBCAABAAT6ZhOI_mKm4MXz7IiWc0byD0NUIr7o05',
+  webhookName: 'Pat Webhook',
+  webhookNotificationId: 'CBJCHBCAABAA329zkKRvOR16OnSJ5Yik2hiPUk8cCYb-',
+  webhookUrlInfo: {
+    url: 'https://214c-2607-fa49-343f-db00-74ee-3019-ee15-e6eb.ngrok.io'
+  },
+  webhookScope: 'ACCOUNT',
+  webhookNotificationApplicableUsers: [
+    {
+      id: 'CBJCHBCAABAAupNJ4woUvYAd0175GbEt-EaNW_SuFYKx',
+      email: 'patrique.legault+dev@aftia.com',
+      role: 'SENDER',
+      payloadApplicable: true
+    }
+  ],
+  event: 'AGREEMENT_CREATED',
+  eventDate: '2021-10-08T19:18:38Z',
+  eventResourceType: 'agreement',
+  participantUserId: 'CBJCHBCAABAAupNJ4woUvYAd0175GbEt-EaNW_SuFYKx',
+  participantUserEmail: 'patrique.legault+dev@aftia.com',
+  actingUserId: 'CBJCHBCAABAAupNJ4woUvYAd0175GbEt-EaNW_SuFYKx',
+  actingUserEmail: 'patrique.legault+dev@aftia.com',
+  actingUserIpAddress: '173.177.169.65',
+  agreement: {
+    id: 'CBJCHBCAABAA53_kWDOUIbpQ5_NlstdjN2g8IbRj9ywq',
+    name: '[DEMO USE ONLY] Test Agreement',
+    signatureType: 'ESIGN',
+    status: 'OUT_FOR_SIGNATURE',
+    documentVisibilityEnabled: false,
+    createdDate: '2021-10-08T19:18:38Z',
+    locale: 'en_US',
+    message: 'This is a test',
+    senderEmail: 'patrique.legault+dev@aftia.com'
+  }
+}
+UB7E5BXCXY
+{
+  webhookId: 'CBJCHBCAABAAT6ZhOI_mKm4MXz7IiWc0byD0NUIr7o05',
+  webhookName: 'Pat Webhook',
+  webhookNotificationId: 'CBJCHBCAABAAGit_NYdTWFTBdV-UmZ7i8RvQl42meRdV',
+  webhookUrlInfo: {
+    url: 'https://214c-2607-fa49-343f-db00-74ee-3019-ee15-e6eb.ngrok.io'
+  },
+  webhookScope: 'ACCOUNT',
+  webhookNotificationApplicableUsers: [
+    {
+      id: 'CBJCHBCAABAAupNJ4woUvYAd0175GbEt-EaNW_SuFYKx',
+      email: 'patrique.legault+dev@aftia.com',
+      role: 'SENDER',
+      payloadApplicable: true
+    }
+  ],
+  event: 'AGREEMENT_ACTION_REQUESTED',
+  eventDate: '2021-10-08T19:18:41Z',
+  eventResourceType: 'agreement',
+  participantRole: 'SIGNER',
+  participantUserId: 'CBJCHBCAABAA7tSxWaGuzV9qyrpuFxqfqPywSgt8jt18',
+  participantUserEmail: 'patrique.legault+123@aftia.com',
+  actingUserId: 'CBJCHBCAABAAupNJ4woUvYAd0175GbEt-EaNW_SuFYKx',
+  actingUserEmail: 'patrique.legault+dev@aftia.com',
+  agreement: {
+    id: 'CBJCHBCAABAA53_kWDOUIbpQ5_NlstdjN2g8IbRj9ywq',
+    name: '[DEMO USE ONLY] Test Agreement',
+    signatureType: 'ESIGN',
+    status: 'OUT_FOR_SIGNATURE',
+    documentVisibilityEnabled: false,
+    createdDate: '2021-10-08T19:18:38Z',
+    locale: 'en_US',
+    message: 'This is a test',
+    senderEmail: 'patrique.legault+dev@aftia.com'
+  }
+}
+UB7E5BXCXY
+{
+  webhookId: 'CBJCHBCAABAAT6ZhOI_mKm4MXz7IiWc0byD0NUIr7o05',
+  webhookName: 'Pat Webhook',
+  webhookNotificationId: 'CBJCHBCAABAARbbF5L_yhpnHElI8d8wlh9uaaD-sDI9-',
+  webhookUrlInfo: {
+    url: 'https://214c-2607-fa49-343f-db00-74ee-3019-ee15-e6eb.ngrok.io'
+  },
+  webhookScope: 'ACCOUNT',
+  webhookNotificationApplicableUsers: [
+    {
+      id: 'CBJCHBCAABAAupNJ4woUvYAd0175GbEt-EaNW_SuFYKx',
+      email: 'patrique.legault+dev@aftia.com',
+      role: 'SENDER',
+      payloadApplicable: true
+    }
+  ],
+  event: 'AGREEMENT_EMAIL_VIEWED',
+  eventDate: '2021-10-08T19:18:55Z',
+  eventResourceType: 'agreement',
+  participantUserId: 'CBJCHBCAABAA7tSxWaGuzV9qyrpuFxqfqPywSgt8jt18',
+  participantUserEmail: 'patrique.legault+123@aftia.com',
+  actingUserId: 'CBJCHBCAABAA7tSxWaGuzV9qyrpuFxqfqPywSgt8jt18',
+  actingUserEmail: 'patrique.legault+123@aftia.com',
+  actingUserIpAddress: '74.125.210.29',
+  agreement: {
+    id: 'CBJCHBCAABAA53_kWDOUIbpQ5_NlstdjN2g8IbRj9ywq',
+    name: '[DEMO USE ONLY] Test Agreement',
+    signatureType: 'ESIGN',
+    status: 'OUT_FOR_SIGNATURE',
+    documentVisibilityEnabled: false,
+patriquelegault@Patriques-MacBook-Pro simple-debugging-server % node index.js
+Example app listening at http://localhost:3000
+{
+  webhookId: 'CBJCHBCAABAAT6ZhOI_mKm4MXz7IiWc0byD0NUIr7o05',
+  webhookName: 'Pat Webhook',
+  webhookNotificationId: 'CBJCHBCAABAA91E9-zA295KBPDXyysr5Iw0WfodP4eS5',
+  webhookUrlInfo: {
+    url: 'https://214c-2607-fa49-343f-db00-74ee-3019-ee15-e6eb.ngrok.io'
+  },
+  webhookScope: 'ACCOUNT',
+  webhookNotificationApplicableUsers: [
+    {
+      id: 'CBJCHBCAABAAupNJ4woUvYAd0175GbEt-EaNW_SuFYKx',
+      email: 'patrique.legault+dev@aftia.com',
+      role: 'SENDER',
+      payloadApplicable: true
+    }
+  ],
+  event: 'AGREEMENT_CREATED',
+  eventDate: '2021-10-08T19:20:44Z',
+  eventResourceType: 'agreement',
+  participantUserId: 'CBJCHBCAABAAupNJ4woUvYAd0175GbEt-EaNW_SuFYKx',
+  participantUserEmail: 'patrique.legault+dev@aftia.com',
+  actingUserId: 'CBJCHBCAABAAupNJ4woUvYAd0175GbEt-EaNW_SuFYKx',
+  actingUserEmail: 'patrique.legault+dev@aftia.com',
+  actingUserIpAddress: '173.177.169.65',
+  agreement: {
+    id: 'CBJCHBCAABAALqlyzPgwnM6i5F2WZSKiVEQwtjBy4ihp',
+    name: '[DEMO USE ONLY] Test',
+    signatureType: 'ESIGN',
+    status: 'OUT_FOR_SIGNATURE',
+    documentVisibilityEnabled: false,
+    createdDate: '2021-10-08T19:20:44Z',
+    locale: 'en_US',
+    message: 'This is a test',
+    senderEmail: 'patrique.legault+dev@aftia.com'
+  }
+}
