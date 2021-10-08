@@ -11,7 +11,7 @@ An Express server to debug Adobe Sign webhooks
     - Now you have a server that is accessible at http://localhost:3000
 5. Execute `ngrok http 3000`
     - Locate the public facing URL from the command result
-6. Create an Adobe Sign Webhook with the resulting ngrok URL
+6. Create an Adobe Sign Webhook with the resulting ngrok URL (i.e. https://helpx.adobe.com/sign/using/adobe-sign-webhooks-api.html)
 
 ## Contributor
 
