@@ -1,2 +1,19 @@
-# simple-debugging-server
-An Express server to debug webhook calls
+# Adobe Sign Webhook Debugger
+
+An Express server to debug Adobe Sign webhooks
+
+## Setup
+
+1. Install ngrok locally on your laptop (i.e. https://ngrok.com/download)
+2. Make sure you have node installed (i.e. https://nodejs.org/en/download/)
+3. In the root of the project run `npm install`
+4. In the root of the project run `node index.js`
+    - Now you have a server that is accessible at http://localhost:3000
+5. Execute `ngrok http 3000`
+    - Locate the public facing URL from the command result
+6. Create an Adobe Sign Webhook with the resulting ngrok URL
+
+## Contributor
+
+- [Patrique Legault](https://github.com/pat-lego)
+
