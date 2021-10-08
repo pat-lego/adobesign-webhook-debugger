@@ -13,6 +13,12 @@ An Express server to debug Adobe Sign webhooks
     - Locate the public facing URL from the command result
 6. Create an Adobe Sign Webhook with the resulting ngrok URL (i.e. https://helpx.adobe.com/sign/using/adobe-sign-webhooks-api.html)
 
+## Known Issues
+
+If the payload of the webhook becomes to large (i.e. too many notification parameters being sent) then the debugging utility will report the following errors `PayloadTooLargeError: request entity too large`. 
+
+**Note:** I limit my requests to only include the `Agreement Info` Notification Parameters.
+
 ## Contributor
 
 - [Patrique Legault](https://github.com/pat-lego)
